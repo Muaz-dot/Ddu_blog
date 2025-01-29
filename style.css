@@ -1,0 +1,492 @@
+*{
+	font-family: cambria,cochin;;
+}
+
+.fristviewcontainer{
+	height: 100vh ;
+	background-image: url('lpbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+
+.navbar{
+	background-color:blue;
+	padding: 0;
+	margin: 0;
+}
+
+
+.navbar-brand{
+	padding: 5px;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	border: 4px solid #000;
+	border-radius: 5px;
+}
+
+
+.navbar-brand:visited{
+	color: #000;
+}
+
+
+.navbar-brand:hover{
+	color:#fff;
+}
+
+.navbarlink{
+	color: #000;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+.navbarlink:hover{
+	color:#fff;
+}
+
+.navbar-toggler-icon{
+	background-color: #fff;
+}
+
+.navbar-toggler:hover{
+	background-color: #000;
+}
+
+.searchboxcontainer{
+	margin-top:7%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.input-group{
+	width: 50%;
+	height: 50px;
+}
+
+.form-control{
+	background-color:#fff;
+	font-size:18px;
+	font-weight: lighter;
+}
+
+.input-group-text{
+	background-color:#000;
+}
+.searchIcon{
+	color: #fff;
+}
+.btn{
+	margin-right: 10px;
+	background-color: #000;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.btn:hover{
+	border: 2px solid #fff;
+	color: #000;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.post{
+	background-color: aquamarine;
+	height: 50%;
+}
+.footer{ 
+	background-color: #201F1B;
+}
+.footerlink{
+	color: #fff;
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: 16px;
+	text-transform: capitalize;
+
+
+}
+
+.footerlink:visited{
+	color: #fff;
+	font-size: 16px;
+}
+
+.footerlink:hover{
+	font-size: 18px;
+}
+
+
+.footerlist{
+
+	list-style-type: none;
+
+}
+
+.footerhead{
+
+	color: #fff;
+	font-weight: bolder;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+.footercontainer{
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+}
+
+.footerraw{
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 10px;
+
+}
+
+.bgcolor{
+	background-color: black;
+}
+
+.navbarabout{
+	background-color: hsl(208, 14%, 58%);
+
+}
+
+.aboutbody{
+	height: 100vh ;
+	background-image: url('lpbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.pargarphcontainer{
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+}
+
+.aboutparagraph{
+	margin-top: 10px;
+	padding: 50px;
+	width: 50%;
+	font-size: 18px;
+	background-color: hsl(208, 14%, 58%, 0.6);;
+	text-align: justify;
+	color: #000;
+
+}
+
+.abouthead{
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 3%;
+
+}
+
+
+.bodysignin{
+	height: 100vh ;
+	background-image: url('lpbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.signpage{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.signinbg{
+	
+	width: 50vh;
+	background-color: hsl(208, 14%, 58%, 0.5);
+	height: 70vh;
+	margin-top: 5vh;
+}
+
+.signinheader
+{
+	margin-left: 30%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-top: 40px;
+	color: #000;
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signinbox{
+	width: 80% ;
+	height: 40px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+	border: 0px;
+	border-bottom: 3px solid #000;
+	background-color: transparent;
+}
+
+.signinbox::placeholder{
+	color: #000;
+	font-weight: bold;
+
+}
+
+.signinbutton{
+	width: 80px;
+	height: 30px;
+	margin-left: 12%;
+	margin-top: 20px;
+	padding: 4px;
+	color: #fff;
+	background-color: #000;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.signinbutton:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.signinforgot{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 15px;
+}
+
+.signinforgot:hover{
+	font-weight: bolder;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+.forgotaccsignin{
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+.forgotaccsigninlink{
+	font-size: 16px;
+	color: #fff;
+
+}
+
+.forgotaccsigninlink:hover{
+	font-size: 18px;
+	
+}
+
+.signupbody{
+	height: 100vh ;
+	background-image: url('lpbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.signupcont{
+	display: flex;
+	justify-content: center;
+}
+
+
+.signupbox{
+	background-color: hsl(208, 14%, 58%, 0.5);
+	width: 55vh;
+	height: 80vh;
+	margin: 2%;
+
+}
+
+.signupheader{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 30%;
+}
+
+.signupform{
+	margin-left: 35px;
+}
+.signupinputarea{
+	border: 0px;
+	border-bottom: 3px solid #000;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	background-color: transparent;
+	width: 80%;
+}
+.signupinputarea::placeholder{
+	color: #000;
+	font-weight: bold;
+}
+.signupask{
+	color: #000;
+	font-weight: bold;
+}
+.signupsubmit{
+	font-weight: bold;
+	background-color: #000;
+	color: #fff;
+}
+
+.signupsubmit:hover{
+	background-color: #fff;
+	color: #000
+}
+
+.signuplink{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.signuplink:hover{
+
+	color: #000;
+
+}
+
+.checkboxsignup{
+	width: 20px;
+}
+
+.signupwarning{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ad0d0de4;
+	border: 1px solid hsl(208, 14%, 58%, 0.9);;
+	width: 235px;
+	padding: 7px;
+    margin-left: 15%;
+	margin-top: 3px;
+
+}
+
+.postconi {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-direction: column; 
+	margin: 3%;
+}
+
+.postboxheader {
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.posttextarea {
+	border: 2px solid  hsl(208, 14%, 58%);
+	width: 500px;
+	height: 40vh;
+	text-align: justify;
+	padding: 10px;
+}
+
+.postbuttons{
+	color: #000;
+	background-color:hsl(208, 14%, 58%);
+	font-size: 16px;
+	margin-top: 5px;
+	width: 100px;
+}
+
+.postbuttons:hover{
+	font-size: 18px;
+	color: #fff;
+}
+.signinwarning
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ad0d0de4;
+	border: 1px solid hsl(208, 14%, 58%, 0.9);
+	width: 235px;
+	padding: 7px;
+    margin-left: 15%;
+	margin-top: 50px;
+
+}
+
+.termPlobody{
+	background-color: #D9D9D9;
+}
+
+.termPlojust{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.termpolbg{
+	
+	width: 50%;
+	padding: 70px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-color: #fff;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.termpolhead{
+	color: #201F1B;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.headertp{
+	font-weight: bold;
+}
+
+.postboxwarning{
+		color: #ff0000;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px;
+}

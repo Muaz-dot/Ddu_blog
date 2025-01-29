@@ -12,4 +12,4 @@ Chuider                       1406647
 
 Nati gezagn                   1401653
 
-Obsa       
+Obsa Kumera                   1402771

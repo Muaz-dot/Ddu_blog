@@ -2,7 +2,7 @@
 
 # Group members                 id
 
-# Muaz Amin                     # 1406874
+# Muaz Amin                      1406874
 
 # Abdulfetah Jemal              1406650 
 
